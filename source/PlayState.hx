@@ -21,6 +21,11 @@ class PlayState extends FlxState
 		var hero3 = new ScreensaverHero();
 		var hero4 = new ScreensaverHero();
 
+		hero1.screenCenter();
+		hero2.screenCenter();
+		hero3.screenCenter();
+		hero4.screenCenter();
+
 		add(hero1);
 		add(hero2);
 		add(hero3);
