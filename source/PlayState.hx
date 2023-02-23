@@ -30,6 +30,9 @@ class PlayState extends FlxState
 		add(hero2);
 		add(hero3);
 		add(hero4);
+
+		var ControllableHero1 = new ControllableHero();
+		add(ControllableHero1);
 	}
 
 	override public function update(elapsed:Float)
