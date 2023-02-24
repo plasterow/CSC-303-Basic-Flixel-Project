@@ -9,11 +9,13 @@ class ScreensaverHero extends FlxSprite
 {
     private var MovementDirectionX = FlxG.random.float(-2, 2);
     private var MovementDirectionY = FlxG.random.float(-2, 2);
+    private var starting_height = 80;
+    private var starting_width = 50;
     
     public function new()
     {
         super();
-        makeGraphic(50, 80, FlxColor.WHITE, false);
+        makeGraphic(starting_width, starting_height, FlxColor.WHITE, false);
     }
     
     override public function update(elapsed:Float) 
