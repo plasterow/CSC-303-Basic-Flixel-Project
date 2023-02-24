@@ -6,8 +6,8 @@ import flixel.FlxG;
 
 class ControllableHero extends FlxSprite
 {
-    var starting_height = 45;
-    var starting_width = 50;
+    private var starting_height = 45;
+    private var starting_width = 50;
     public function new()
         {
             super();
